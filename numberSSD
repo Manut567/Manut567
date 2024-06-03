@@ -1,0 +1,10 @@
+        p1=head;
+        while(number!=p1->number&&p1->next!=NULL)
+        {
+            p2=p1;
+            p1=p1->next;
+        }
+        if(number==p1->number)
+        {
+             printf("|%d\t|%s\t|%d\t\n",p1->number,p1->name,p1->xiaofei);
+             printf("-----------------------------------------\n");
